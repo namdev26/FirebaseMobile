@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">CineNova</string>
+
+    <!-- Auth -->
+    <string name="login">Đăng nhập</string>
+    <string name="register">Đăng ký</string>
+    <string name="email">Email</string>
+    <string name="password">Mật khẩu</string>
+    <string name="full_name">Họ và tên</string>
+    <string name="sign_in_with_google">Đăng nhập với Google</string>
+    <string name="no_account">Chưa có tài khoản? Đăng ký</string>
+    <string name="have_account">Đã có tài khoản? Đăng nhập</string>
+    <string name="logout">Đăng xuất</string>
+
+    <!-- Main -->
+    <string name="movies">Phim</string>
+    <string name="my_tickets">Vé của tôi</string>
+    <string name="now_showing">Lịch chiếu hôm nay</string>
+
+    <!-- Movie detail -->
+    <string name="book_ticket">Đặt vé</string>
+    <string name="genre">Thể loại</string>
+    <string name="duration">Thời lượng</string>
+    <string name="rating">Đánh giá</string>
+    <string name="minutes">phút</string>
+
+    <!-- Booking -->
+    <string name="select_showtime">Chọn suất chiếu</string>
+    <string name="number_of_seats">Số ghế</string>
+    <string name="customer_name">Tên khách hàng</string>
+    <string name="customer_phone">Số điện thoại</string>
+    <string name="total_price">Tổng tiền</string>
+    <string name="confirm_booking">Xác nhận đặt vé</string>
+    <string name="booking_success">Đặt vé thành công!</string>
+    <string name="booking_detail">Chi tiết đặt vé</string>
+
+    <!-- Ticket -->
+    <string name="ticket_id">Mã vé</string>
+    <string name="showtime">Suất chiếu</string>
+    <string name="seats">Ghế</string>
+    <string name="status_confirmed">Đã xác nhận</string>
+    <string name="no_tickets">Bạn chưa có vé nào</string>
+
+    <!-- Errors -->
+    <string name="error_empty_fields">Vui lòng điền đầy đủ thông tin</string>
+    <string name="error_login_failed">Đăng nhập thất bại</string>
+    <string name="error_register_failed">Đăng ký thất bại</string>
+    <string name="loading">Đang tải...</string>
+</resources>

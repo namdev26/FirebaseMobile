@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Màn chiếu rạp phim nhìn từ góc phối cảnh (perspective)
+    Hình thang: rộng phía trên, hẹp hơn phía dưới
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="280dp"
+    android:height="48dp"
+    android:viewportWidth="280"
+    android:viewportHeight="48">
+
+    <!-- Viền / khung ngoài màn hình -->
+    <path
+        android:fillColor="#555555"
+        android:pathData="M0,0 L280,0 L265,48 L15,48 Z" />
+
+    <!-- Mặt màn hình chính (màu trắng ngà) -->
+    <path
+        android:fillColor="#E8E6E0"
+        android:pathData="M4,3 L276,3 L261,45 L19,45 Z" />
+
+    <!-- Phản chiếu ánh sáng phía trên (highlight) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.55"
+        android:pathData="M10,4 L270,4 L255,18 L25,18 Z" />
+
+    <!-- Phản chiếu ánh sáng giữa màn hình -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.20"
+        android:pathData="M30,20 L250,20 L240,35 L40,35 Z" />
+
+    <!-- Đường viền dưới màn hình -->
+    <path
+        android:fillColor="#333333"
+        android:pathData="M15,46 L265,46 L266,48 L14,48 Z" />
+
+</vector>

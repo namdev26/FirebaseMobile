@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Cinema seat vector - nhìn từ phía trước
+    Gồm: lưng ghế (back), hai tay vịn (armrests), đệm ngồi (cushion)
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="36dp"
+    android:height="40dp"
+    android:viewportWidth="100"
+    android:viewportHeight="110">
+
+    <!-- ===== LƯNG GHẾ (Seat back) ===== -->
+    <!-- Thân chính: hình chữ nhật bo góc trên -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M18,2
+                          C18,2 14,2 14,6
+                          L14,64
+                          C14,68 18,70 22,70
+                          L78,70
+                          C82,70 86,68 86,64
+                          L86,6
+                          C86,2 82,2 82,2
+                          Z" />
+
+    <!-- Chi tiết bên trong lưng ghế (độ sâu) -->
+    <path
+        android:fillColor="#000000"
+        android:fillAlpha="0.12"
+        android:pathData="M22,6
+                          C20,6 19,7 19,9
+                          L19,62
+                          L81,62
+                          L81,9
+                          C81,7 80,6 78,6
+                          Z" />
+
+    <!-- ===== TAY VỊN TRÁI (Left armrest) ===== -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M2,52
+                          C2,48 5,46 9,46
+                          L18,46
+                          L18,80
+                          C18,84 15,86 11,86
+                          L6,86
+                          C3,86 2,83 2,80
+                          Z" />
+
+    <!-- Bóng tay vịn trái -->
+    <path
+        android:fillColor="#000000"
+        android:fillAlpha="0.10"
+        android:pathData="M5,52
+                          L15,52
+                          L15,83
+                          L5,83
+                          Z" />
+
+    <!-- ===== TAY VỊN PHẢI (Right armrest) ===== -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M98,52
+                          C98,48 95,46 91,46
+                          L82,46
+                          L82,80
+                          C82,84 85,86 89,86
+                          L94,86
+                          C97,86 98,83 98,80
+                          Z" />
+
+    <!-- Bóng tay vịn phải -->
+    <path
+        android:fillColor="#000000"
+        android:fillAlpha="0.10"
+        android:pathData="M85,52
+                          L95,52
+                          L95,83
+                          L85,83
+                          Z" />
+
+    <!-- ===== ĐỆM NGỒI (Seat cushion) ===== -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M18,72
+                          C18,69 21,67 24,67
+                          L76,67
+                          C79,67 82,69 82,72
+                          L82,98
+                          C82,104 78,108 72,108
+                          L28,108
+                          C22,108 18,104 18,98
+                          Z" />
+
+    <!-- Chi tiết bên trong đệm (độ sâu) -->
+    <path
+        android:fillColor="#000000"
+        android:fillAlpha="0.10"
+        android:pathData="M22,72
+                          L78,72
+                          L78,96
+                          C78,100 75,103 72,104
+                          L28,104
+                          C25,103 22,100 22,96
+                          Z" />
+
+    <!-- Đường highlight trên đệm (ánh sáng) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.35"
+        android:pathData="M26,72
+                          L74,72
+                          L74,76
+                          C74,76 50,80 26,76
+                          Z" />
+
+</vector>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Ánh sáng phát ra từ màn hình chiếu xuống phía ghế -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <gradient
+        android:type="linear"
+        android:startColor="#55D0D0CC"
+        android:endColor="#00D0D0CC"
+        android:angle="270" />
+</shape>

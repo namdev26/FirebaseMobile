@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Get-Content \"C:\\\\Users\\\\Admin\\\\AndroidStudioProjects\\\\MyApplication\\\\app\\\\src\\\\main\\\\java\\\\com\\\\example\\\\myapplication\\\\TicketAdapter.java\")",
+      "Bash(Select-Object -First 80)"
+    ]
+  }
+}
